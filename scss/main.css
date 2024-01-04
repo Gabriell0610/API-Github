@@ -1,0 +1,164 @@
+#navbar {
+  position: fixed;
+  min-width: 200px;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background-color: #525CEB;
+  border-right: 4px solid #fff;
+  color: #fff;
+  padding: 2rem;
+}
+#navbar p {
+  text-align: center;
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+#navbar #form {
+  text-align: center;
+}
+#navbar #form input {
+  padding: 0.45rem 0.5rem;
+  outline: none;
+  border: 2px solid #fff;
+  background-color: #333;
+  color: #fff;
+}
+#navbar img {
+  width: 200px;
+  display: block;
+  margin: 3rem auto;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+#content-main {
+  position: absolute;
+  color: #fff;
+  margin-left: 280px;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#content-main .card-content {
+  background-color: #7e859e;
+  width: 400px;
+  margin: 10px 20px;
+  padding: 1.5rem 2rem 0.5rem;
+}
+#content-main .card-content .div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+#content-main .card-content .div a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.9rem;
+}
+#content-main .card-content .div .name-project {
+  font-size: 0.9rem;
+}
+#content-main .card-content .div .language {
+  position: relative;
+}
+#content-main .card-content .div .see-cod {
+  background-color: #525CEB;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+#content-main .card-content .div .circle {
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  top: 25%;
+  right: 110%;
+}
+#content-main .card-content .div .colors {
+  background-color: #14ecfc;
+}
+#content-main .card-content .div .java {
+  background-color: #ca7819;
+}
+#content-main .card-content .div .javascript {
+  background-color: yellow;
+}
+#content-main .card-content .div .typescript {
+  background-color: #2b79d3;
+}
+#content-main .card-content .div .csharp {
+  background-color: #026d02;
+}
+#content-main .card-content .div .python {
+  background-color: #06479c;
+}
+#content-main .card-content .div .html {
+  background-color: #a56c03;
+}
+#content-main .card-content .div .css {
+  background-color: #4e3675;
+}
+#content-main .card-content .div .c {
+  background-color: #555454;
+}
+#content-main .card-content .div .cc {
+  background-color: #b852aa;
+}
+
+@media screen and (max-width: 767px) {
+  #navbar {
+    position: absolute;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 305px;
+    padding: 1rem;
+    border: 0;
+  }
+  #navbar p {
+    font-size: 1rem;
+  }
+  #navbar input {
+    width: 150px;
+  }
+  #navbar img {
+    width: 100px;
+    margin: 1.5rem auto;
+  }
+  #content-main {
+    margin-left: 0;
+    margin-top: 300px;
+    position: relative;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  #content-main .card-content .language {
+    font-size: 0.8rem;
+  }
+  #content-main .card-content .see-cod {
+    padding: 0.4rem;
+  }
+  #content-main .card-content .div a {
+    font-size: 0.6rem;
+  }
+  #content-main .card-content .div a i {
+    font-size: 0.6rem;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: #222;
+}/*# sourceMappingURL=main.css.map */

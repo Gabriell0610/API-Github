@@ -1,0 +1,139 @@
+#navbar {
+    position: fixed;
+    min-width: 200px;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: #525CEB;
+    border-right: 4px solid #fff;
+    color: #fff;
+    padding: 2rem;
+
+    p {
+        text-align: center;
+        font-size: 1.4rem;
+        margin-bottom: 2rem;
+    }
+
+    #form {
+        text-align: center;
+    
+        input {
+            padding: .45rem .5rem;
+            outline: none;
+            border: 2px solid #fff;
+            background-color: #333;
+            color: #fff;
+
+        }
+        
+    }
+
+    img {
+        width: 200px;
+        display: block;
+        margin: 3rem auto;
+        border-radius: 50%;
+        border: 3px solid #fff;
+    }
+
+}
+
+#content-main{
+    position: absolute;
+    color: #fff;
+    margin-left: 280px;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .card-content {
+        background-color: #7e859e;
+        width: 400px;
+        margin: 10px 20px;
+        padding: 1.5rem 2rem 0.5rem;
+        
+        .div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            position: relative;
+
+            a {
+                text-decoration: none;
+                color: #fff;
+                font-size: .9rem;
+            }
+
+            .name-project {
+                font-size: .9rem;
+            }
+            
+            .language {
+                position: relative;
+            }
+            
+            .see-cod {
+                background-color: #525CEB;
+                padding: .5rem;
+                text-align: center;
+                border-radius: 5px;
+                display: flex;
+                align-items: center;
+            }
+            .circle {
+                position: absolute;
+                height: 10px;
+                width: 10px;
+                border-radius: 50%;
+                top: 25%;
+                right: 110%;
+            }
+
+            .colors {
+                background-color: $color-default;
+            }
+
+            .java{
+                background-color: $color-java;
+            }
+
+            .javascript {
+                background-color: $color-javascript;
+            }
+
+            .typescript {
+                background-color: $color-typescript;
+            }
+            
+            .csharp {
+                background-color: $color-csharp;
+            }
+
+            .python {
+                background-color: $color-python;
+            }
+
+            .html {
+                background-color: $color-html;
+            }
+
+            .css {
+                background-color: $color-css;
+            }
+
+            .c {
+                background-color: $color-c;
+            }
+
+            .cc {
+                background-color: $color-cc;
+            }
+        }
+
+    }
+}
+
+
